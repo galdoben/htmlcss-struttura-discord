@@ -15,6 +15,7 @@ header.debug{
 }
 
 .container-debug{
+    align-items: center;
     max-width: 900px;
     margin: 0 auto;
 }
@@ -41,43 +42,89 @@ header-bottom{
 }
 
 .container-frog{
+    margin: 0 auto;
+    max-width: 1000px;
     padding: 30px;
-    justify-content: space-between;
-    
     display: flex;
     height: 300px;
 }
-
 .immagine-rana{
-    max-width: 100%;
     background-color: blue;
-    margin: 0 auto;
-    
+    width: 60%;  
 }
 
 .luogo{
-    max-width: 100%;
     background-color: aliceblue;
-    margin: 0 auto;
-    
+    width: 40%;
+  
 }
 
-
 .container-magic{
+    margin: 0 auto;
+    max-width: 1000px;
     padding: 30px;
     display: flex;
     height: 300px;
 }
+    
 .facile{
-    max-width: 100%;
     background-color: aliceblue;
-    margin: 0 auto; 
+    width: 40%;
+   
 }
 .immagine-mago{
-    max-width: 100%;
     background-color: blue;
-    margin: 0 auto;
+    width: 60%;
+  
 }
-.immagine-mag0{
+.container-ciclop{
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 30px;
+    display: flex;
+    height: 300px;
+}
+.immagine-book{
+    background-color: blue;
+    width: 60%;
+}
+.fandom{
+    background-color: aliceblue;
+    width: 40%;
+}
+
+.tecnologia{
     background-color: aquamarine;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 30px;
+    display: flex;
+    height: 300px;
+}
+
+.talk{
+    background-color: rgb(84, 45, 191);
+    margin: 35px auto;
+    max-width: 1000px;
+    display: flex;
+    height: 300px;
+    }
+
+.pages{
+    width: 30%;
+    background-color: hsl(263, 55%, 41%);
+
+}
+.contact{
+    width: 70%;
+    background-color: bisque;
+}
+
+
+.us{
+    background-color: bisque;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 30px;
+    display: flex;
 }
