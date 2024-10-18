@@ -8,24 +8,37 @@ header{
     height: 80px;
 }
 
-header.debug{
+.container-intro{
     background-color: lightsalmon;
     border: 1px solid;
-    min-height: 50px;    
+    height: 100%;    
 }
-
-.container-debug{
-    align-items: center;
-    max-width: 900px;
-    margin: 0 auto;
+nav ul a{
+    text-decoration: none;
+    color: white;
+    margin: 0 25px;
 }
 
 .row{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button{
+    height: 400px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+.container-first{
+    background-color: thistle;
+    display: flex;
+    height: 200px;
+    width: 500px;
+    align-items: center;
+    margin: 0 auto;
+}
 
 ul{
     display: flex;
@@ -110,12 +123,14 @@ header-bottom{
     height: 300px;
     }
 
-.pages{
+.container-pages{
+    display: flex;
     width: 30%;
     background-color: hsl(263, 55%, 41%);
 
 }
-.contact{
+.container-contact{
+    display: flex;
     width: 70%;
     background-color: bisque;
 }
@@ -127,4 +142,18 @@ header-bottom{
     max-width: 1000px;
     padding: 30px;
     display: flex;
+}
+
+.us{
+    display: flex;
+    justify-content: space-between;
+
+}
+.bottone {
+    padding: 10px;
+    background-color: aquamarine;
+}
+.logo {
+    padding: 10px;
+    background-color: aquamarine;
 }
