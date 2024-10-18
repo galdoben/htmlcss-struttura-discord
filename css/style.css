@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 80px;
+}
+
+header.debug{
+    background-color: lightsalmon;
+    border: 1px solid;
+    min-height: 50px;    
+}
+
+.container-debug{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+}
+ul{
+    text-align: center;
+}
+
+header-bottom{
+    background-color: aqua;
+    height: 400px;
+   
+}
+
+.container-frog{
+    padding: 30px;
+    justify-content: space-between;
+    
+    display: flex;
+    height: 300px;
+}
+
+.immagine-rana{
+    max-width: 100%;
+    background-color: blue;
+    margin: 0 auto;
+    
+}
+
+.luogo{
+    max-width: 100%;
+    background-color: aliceblue;
+    margin: 0 auto;
+    
+}
+
+
+.container-magic{
+    padding: 30px;
+    display: flex;
+    height: 300px;
+}
+.facile{
+    max-width: 100%;
+    background-color: aliceblue;
+    margin: 0 auto; 
+}
+.immagine-mago{
+    max-width: 100%;
+    background-color: blue;
+    margin: 0 auto;
+}
+.immagine-mag0{
+    background-color: aquamarine;
+}
